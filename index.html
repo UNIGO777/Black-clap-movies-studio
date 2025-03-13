@@ -71,7 +71,7 @@
   <title>BlackClap Pictures - Innovative Filmmaking & Advertising</title>
 </head>
 
-<body>
+<body >
 
   <script>
     const theme = localStorage.getItem("theme") || "dark";
@@ -86,6 +86,9 @@
     <div class="header-overlay"></div>
 
     <div class="menu-btn-container">
+      <div class="logo">
+        <img class="" width="60" src="assets/images/black clap cinema new.png" alt="BlackClap Pictures" style=" filter: none !important;" />
+      </div>
       <div class="container">
         <button type="button" class="menu-btn">menu</button>
       </div>
@@ -104,13 +107,17 @@
         </li>
       </ol>
     </nav>
+    
+
+    
 
     <div class="container">
+      
       <div class="header-textbox">
         <!-- Replace with your name and job title -->
         <h1 class="h1" style="color: white;">
-          <span>BlackClap Pictures</span>
-          <span>Innovative Filmmaking & Advertising</span>
+          <span style="display: flex; gap: 10px;">Black<span style="color: rgb(255, 94, 35);">Clap</span>   Pictures</span>
+          <span class="h3">Innovative Filmmaking & Advertising</span>
         </h1>
 
         <!-- Add a small introductory paragraph about yourself -->
@@ -119,7 +126,7 @@
         </p>
 
         <div class="header-btns" >
-          <a href="#contact" style="color: black; background: white;" class="btn btn-cta">Contact us</a>
+          <a href="#contact" style="color: black; background: white;" class="btn btn-cta">Let's make it happened</a>
           
         </div>
       </div>
@@ -148,8 +155,8 @@
               We help any Product / Brand / Shop to reach its way to every audience out there to Highlight YOU and YOUR
               BRAND ADs. Differently and Creatively with our Strongly Experienced Film-Team.
             </p>
-            <p class="about-text">
-              <strong>Our Mission is One - To Make Your Brand Noticed by Every Eye.</strong>
+            <p class="about-text" style="padding-block: 10px;">
+              <strong class="h4" >"Our Mission is One - To Make Your Brand Noticed by Every Eye."</strong>
             </p>
             <p class="about-text">
               If you are ambitious to Endorse your Brand Reach to a larger audience out there and convert them to your
@@ -189,6 +196,31 @@
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
+              <h3 class="h3">Gym Videography</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                Dynamic fitness and workout videos that capture the energy and intensity of gym training. Perfect for
+                fitness centers, personal trainers, and athletic promotions.
+              </p>
+              <ol class="work-technologies">
+                <li>Dynamic Filming</li>
+                <li>Action Shots</li>
+                <li>Professional Editing</li>
+              </ol>
+
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <div class=" videoContainer">
+              <video class="video" controls poster="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" >
+                <source src="assets/videos/gym .m4v" type="video/mp4">
+               
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
               <h3 class="h3">Luxury Watch Photography</h3>
               <!-- Add small description of your project  -->
 
@@ -204,31 +236,7 @@
               <img loading="lazy" src="assets/images/_ANA4839.JPG" alt="portfolio template" />
             </picture>
           </div>
-          <div class="work-box">
-            <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Gym Videography</h3>
-              <!-- Add small description of your project  -->
-              <p class="work-text">
-                Dynamic fitness and workout videos that capture the energy and intensity of gym training. Perfect for
-                fitness centers, personal trainers, and athletic promotions.
-              </p>
-              <ol class="work-technologies">
-                <li>Dynamic Filming</li>
-                <li>Action Shots</li>
-                <li>Professional Editing</li>
-              </ol>
-
-            </div>
-            <!-- Update img src and alt attribute  -->
-            <div class="work-video videoContainer">
-              <video class="video" controls poster="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="object-fit:cover;">
-                <source src="assets/videos/gym .m4v" type="video/mp4">
-               
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -243,7 +251,7 @@
         <div class="service-container">
 
           <div class="service-card">
-            <img src="assets/images/image copy.png" class="service-img" alt="Product Photography" loading="lazy" />
+            <img src="assets/images/IMG_1331.jpg" class="service-img" alt="Product Photography" loading="lazy" />
             <div class="service-detail">
               <h3 class="service-title">Ad-Film-Making</h3>
               <p class="service-description">
@@ -402,7 +410,7 @@
           </article>
 
           <article class="article-box">
-            <div class="article-textbox">
+            <div class="article-textbox" >
               <div>
                 <h3 class="h4">
                   Dynamic Collaboration with Shree Satya Sai Convent School
@@ -428,16 +436,37 @@
                   Social Media Reel Content
                 </h3>
                 <p class="article-text">
-                  An engaging social media reel highlighting dynamic moments and vibrant campus activities at Shree Satya Sai School. Our creative team captured the energy and spirit of student life through quick, impactful shots designed specifically for social platforms.
+                  An engaging and innovative social media reel highlighting dynamic moments and vibrant campus activities at Shree Satya Sai School. Our experienced creative team expertly captured the energy and spirit of student life through quick, impactful shots designed specifically for social platforms.
                 </p>
               </div>
-               <div class="work-video video-box">
+              <div class="work-video video-box" style="width: 100%;">
                 <video controls  class="video" >
                   <source src="assets/videos/reel 3 final.m4v" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
+               
             </div>
+            
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">
+                  Slow Motion Cinematography
+                </h3>
+                <p class="article-text">
+                  Experience the beauty of motion in stunning detail with our slow motion cinematography. This showcase demonstrates our mastery of high-speed filming techniques, capturing subtle movements and dramatic moments in breathtaking clarity. Perfect for product launches, sports coverage, and artistic visual storytelling.
+                </p>
+              </div>
+              <div class="work-video video-box" style="width: 100%;">
+                <video controls class="video">
+                  <source src="./assets/Videos/4132710-hd_1280_720_25fps.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            
           </article>
         </div>
       </div>
@@ -450,8 +479,8 @@
         <h2 class="h2" id="skills">Our Equipment</h2>
         <div class="skills-imgs">
           <figure class="equipment-text">
-            <p>We use professional-grade cameras, lenses, lighting equipment, and editing software to deliver
-              exceptional quality photography and videography services.</p>
+            <h1 class="h5 " >We use professional-grade cameras, lenses, lighting equipment, and editing software to deliver
+              exceptional quality photography and videography services.</h1>
             <p>Our studio is equipped with the latest technology to ensure your visual content stands out from the
               competition.</p>
           </figure>
@@ -509,51 +538,11 @@
               </figcaption>
             </figure>
           </li>
-          <li class="testimonial">
-            <blockquote class="testimonial-text">
-              The product photography by Black-clap Studio transformed our jewelry line's online presence. Their eye for
-              detail and lighting expertise made each piece look exquisite. Highly recommended for luxury product
-              photography!
-            </blockquote>
-            <figure class="testimonial-author">
-              <img src="assets/images/testimonials/adam.png" alt="Arjun Mehta" loading="lazy" />
-              <figcaption>
-                <h3 class="testimonial-author-name">Arjun Mehta</h3>
-                <p class="testimonial-author-job">CEO @Heritage Jewels</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="testimonial">
-            <blockquote class="testimonial-text">
-              As a fashion designer, I needed high-quality lookbook photos for my new collection. Black-clap Studio
-              exceeded my expectations with their creative direction and professional approach. They truly understand
-              how to showcase clothing in the best light.
-            </blockquote>
-            <figure class="testimonial-author">
-              <img src="assets/images/testimonials/val-head.png" alt="Meera Patel" loading="lazy" />
-              <figcaption>
-                <h3 class="testimonial-author-name">Meera Patel</h3>
-                <p class="testimonial-author-job">Fashion Designer @Elegance</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="testimonial">
-            <blockquote class="testimonial-text">
-              Black-clap Studio's corporate video for our annual conference was outstanding. The quality of their work
-              and professionalism impressed our entire team. We will definitely be using their services for all our
-              future events.
-            </blockquote>
-            <figure class="testimonial-author">
-              <img src="assets/images/testimonials/tim-satterwhite.webp" alt="Sunil Verma" loading="lazy" />
-              <figcaption>
-                <h3 class="testimonial-author-name">Sunil Verma</h3>
-                <p class="testimonial-author-job">Marketing Manager @TechIndia</p>
-              </figcaption>
-            </figure>
-          </li>
+          
         </ol>
       </div>
     </section>
+    
 
     <section class="contact">
       <div class="container">
@@ -590,7 +579,7 @@
               <label for="message">How can we help you?</label>
               <textarea name="message" id="message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-cta">Send</button>
+            <button type="submit" class="btn btn-cta">Let's make it happened</button>
           </form>
         </div>
       </div>
@@ -633,6 +622,9 @@
       </div>
     </div>
   </footer>
+  
+    
+  
 </body>
 
 </html>
