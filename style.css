@@ -11,6 +11,21 @@
   font-stretch: 75% 125%;
 }
 
+.header-title {
+  display: flex;
+
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .header-title {
+    align-items: center;
+  justify-content: center; /* Changed from justify-items to justify-content */
+    text-align: center;
+   
+  }
+}
+
 body{
   position: relative;
 
