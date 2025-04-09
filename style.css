@@ -2,7 +2,7 @@
 /* ----- Basic Setup -----*/
 /* --------------------------------- */
 
-@font-face {
+/* @font-face {
   font-family: "Mona Sans";
   src: url("assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
     url("assets/fonts/Mona-Sans.woff2") format("woff2-variations");
@@ -22,18 +22,20 @@
 }
 
 /* Import Google Fonts */
-@font-face {
+/* @font-face {
   font-family: 'Monoton';
   src: url('assets/fonts/Monoton-Regular.woff2') format('woff2'),
        url('assets/fonts/Monoton-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */ 
 
 .header-title {
-  font-family: 'Monoton'; /* Added fallback font */
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  
+  font-optical-sizing: auto;
+  font-weight: 900;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,12 +43,14 @@
 }
 
 .header-subtitle{
-  font-family: cursive;
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.header-text{
+/* .header-text{
   font-family: cursive;
-}
+} */
 
 .header-title {
   display: flex;
@@ -373,6 +377,7 @@ h1,
 h2,
 h3,
 .h4 {
+  
   overflow-wrap: break-word;
 }
 
@@ -435,7 +440,7 @@ h3,
 }
 
 .iframe-50 {
-  width: 100%;
+  width: 60%;
   height: 100%;
   max-width: 1000px;
   aspect-ratio: 16/9;
@@ -524,6 +529,11 @@ h3,
 }
 
 .service-title {
+  font-family: "Montserrat", sans-serif;
+  
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
   font-size: var(--h3);
 }
 

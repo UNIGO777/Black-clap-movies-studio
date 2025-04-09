@@ -58,7 +58,9 @@
   <link rel="shortcut icon" href="assets/images/black clap cinema new.jpg" type="image/jpg" />
 
   <!-- Preloading fonts for better performance -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lilita+One&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
 
   <!-- Add Tailwind CSS link in the head section -->
@@ -66,6 +68,9 @@
   <link rel="stylesheet" href="tailwind.css" />
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
@@ -143,7 +148,7 @@
 
     <section class="about">
       <div class="container">
-        <h2 class="h2" style="margin-bottom: 4rem;" id="about">What We Do</h2>
+        <h2 class="h2 header-title" style="margin-bottom: 4rem;" id="about">What We Do</h2>
         <div class="about-content">
           <div class="about-textbox">
             <p class="about-text">
@@ -175,22 +180,24 @@
 
     <section class="work ">
       <div class="container ">
-        <h2 class="h2" id="work">Portfolio</h2>
+        <h2 class="h2 service-title" id="work">Portfolio</h2>
         <div class="work-boxes">
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
-              <h3 class="h3">Luxury Handbag Photography</h3>
+              <h3 class="h3 service-title">Luxury Handbag Photography</h3>
               <!-- Add small description of your project  -->
-              <p class="work-text">
+               <br>
+              <p class="service-description">
                 Showcasing elegant handbags through expert product photography. Our specialized techniques highlight
                 textures, materials, and craftsmanship while capturing the luxury essence of each piece.
               </p>
               <!-- Add technologies you used to build the project -->
-              <ol class="work-technologies">
+               <br>
+              <ul class="service-features">
                 <li>Studio Lighting Setup</li>
                 <li>Color Correction</li>
-              </ol>
+              </ul>
             </div>
 
             <!-- Update img src and alt attribute  -->
@@ -202,17 +209,19 @@
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
-              <h3 class="h3">Gym Videography</h3>
+              <h3 class="h3 service-title">Gym Videography</h3>
+              <br>
               <!-- Add small description of your project  -->
-              <p class="work-text">
+              <p class="service-description">
                 Dynamic fitness and workout videos that capture the energy and intensity of gym training. Perfect for
                 fitness centers, personal trainers, and athletic promotions.
               </p>
-              <ol class="work-technologies">
+              <br>
+              <ul class="service-features">
                 <li>Dynamic Filming</li>
                 <li>Action Shots</li>
                 <li>Professional Editing</li>
-              </ol>
+              </ul>
 
             </div>
             <!-- Update img src and alt attribute  -->
@@ -228,15 +237,16 @@
           <div class="work-box">
             <div class="work-textbox">
               <!-- Add your project title here -->
-              <h3 class="h3">Luxury Watch Photography</h3>
+              <h3 class="h3 service-title">Luxury Watch Photography</h3>
               <!-- Add small description of your project  -->
-
-              <p class="work-text">Professional product photography showcasing luxury timepieces with attention to
+              <br>
+              <p class="service-description">Professional product photography showcasing luxury timepieces with attention to
                 detail and craftsmanship.</p>
-              <ol class="work-technologies">
+                <br>
+              <ul class="service-features">
                 <li>Studio Lighting</li>
                 <li>Post-Processing</li>
-              </ol>
+              </ul>
             </div>
             <!-- Update img src and alt attribute  -->
             <picture class="work-img">
@@ -253,7 +263,7 @@
     <!-- Tailwind Services Section -->
     <section class="tailwind-services" id="services">
       <div class="container mx-auto px-4 ">
-        <h2 class=" section-title">Our Services</h2>
+        <h2 class=" section-title service-title">Our Services</h2>
 
         <div class="service-container">
 
@@ -393,12 +403,12 @@
 
     <section class="article">
       <div class="container">
-        <h2 class="h2" id="blog">Our Recent Work</h2>
+        <h2 class="h2 service-title" id="blog">Our Recent Work</h2>
         <div class="article-boxes">
           <article class="article-box featured-article">
-            <div class="article-textbox">
+            <div class="article-textbox ">
               <div>
-                <h3 class="h3">
+                <h3 class="h3 service-title">
                   Shree Satya Sai Convent School
                 </h3>
                 <p class="article-text">
@@ -421,13 +431,11 @@
           <article class="article-box artical-text-box">
             <div class="article-textbox " >
               <div>
-                <h3 class="h4">
+                <h3 class="h4 service-title">
                   Social Media Reel Content
                 </h3>
                 <p class="article-text">
-                  An engaging and innovative social media reel highlighting dynamic moments and vibrant campus
-                  activities at Shree Satya Sai School. Our experienced creative team expertly captured the energy and
-                  spirit of student life through quick, impactful shots designed specifically for social platforms.
+                  An engaging and innovative social media reel highlighting dynamic moments at Shree Satya Sai School. 
                 </p>
               </div>
               <div class="work-video video-box" style="width: 100%;">
@@ -443,8 +451,8 @@
           <article class="article-box artical-text-box" >
             <div class="article-textbox" >
               <div>
-                <h3 class="h4">
-                  Dynamic Collaboration with Shree Satya Sai Convent School
+                <h3 class="h4 service-title">
+                  Collaboration with Shree Satya Sai Convent School
                 </h3>
                 <p class="article-text">
                   Our comprehensive collaboration included creating engaging promotional videos, capturing vibrant
@@ -490,10 +498,10 @@
 
     <section class="skills">
       <div class="container">
-        <h2 class="h2" id="skills">Our Equipment</h2>
+        <h2 class="h2 service-title" id="skills">Our Equipment</h2>
         <div class="skills-imgs">
           <figure class="equipment-text">
-            <h1 class="h5 our-equipment-text">We use professional-grade cameras, lenses, lighting equipment, and editing
+            <h1 class="h5 ">We use professional-grade cameras, lenses, lighting equipment, and editing
               software to deliver
               exceptional quality photography and videography services.
               Our studio is equipped with the latest technology to ensure your visual content stands out from the
@@ -506,7 +514,7 @@
     <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
 
     <section>
-      <h2 class="h2">Testimonials</h2>
+      <h2 class="h2 service-title">Testimonials</h2>
       <div class="container">
         <ol class="testimonials">
           <li class="testimonial">
@@ -534,7 +542,7 @@
                 <h3 class="testimonial-author-name">
                   Priya Sharma
                 </h3>
-                <p class="testimonial-author-job">Newlyweds, Delhi
+                <p class="testimonial-author-job">Software Solution, Delhi
                 </p>
               </figcaption>
             </figure>
@@ -561,7 +569,7 @@
 
     <section class="contact">
       <div class="container">
-        <h2 class="h2" id="contact">Let’s Connect !!!</h2>
+        <h2 class="h2 service-title" id="contact">Let's make it happen !!!</h2>
         <div class="contact-content">
           <div class="contact-textbox">
             <!-- Please comment this component if you're not available for hire -->
